@@ -15,7 +15,7 @@ pip3 install -r requirements.txt
 ```
 Ajouter votre secret token de bot à une variable d'environnement nommée `DISCORD_BOT_TOKEN`
 ```bash
-python3 bot.py
+nohup python3 bot.py &
 ```
 
 ## Commande : 
