@@ -7,11 +7,15 @@ Bot discord permettant de faire l'appel d'un role automatiquement.
 
 Installer le module [discord.py](https://github.com/Rapptz/discord.py)
 ```bash
-pip install discord 
+git clone https://github.com/zroumane/appel-bot-discord.git
+cd appel-bot-discord
+virtualenv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
 ```
-Ajouter votre secret token de bot à une variable d'environnement nommé `DISCORD_BOT_TOKEN`
+Ajouter votre secret token de bot à une variable d'environnement nommée `DISCORD_BOT_TOKEN`
 ```bash
-python bot.py
+python3 bot.py
 ```
 
 ## Commande : 
