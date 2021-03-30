@@ -1,11 +1,11 @@
 # appel-bot-discord
 
 Bot discord permettant de faire l'appel d'un role automatiquement.
+
 [Ajouter le bot a votre discord](https://discord.com/oauth2/authorize?client_id=692301073867866133&permissions=3072&scope=bot)
 
 ## Self-hosting :
 
-Installer le module [discord.py](https://github.com/Rapptz/discord.py)
 ```bash
 git clone https://github.com/zroumane/appel-bot-discord.git
 cd appel-bot-discord
